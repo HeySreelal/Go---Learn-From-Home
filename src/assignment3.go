@@ -6,10 +6,8 @@ func main(){
 	n2 := 0
 	op := "+"
 
-	fmt.Printf("Enter first number: ")
-	fmt.Scan(&n1)
-	fmt.Printf("Enter second number: ")
-	fmt.Scan(&n2)
+	fmt.Printf("Enter two numbers: ")
+	fmt.Scan(&n1, &n2)
 	fmt.Printf("Enter an operator: (+ - * /): ")
 	fmt.Scanf("%s", &op)
 
