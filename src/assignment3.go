@@ -22,18 +22,18 @@ func main(){
 
 // Funcs 
 
-func add(n1 int, n2 int) int {
+func add(n1, n2 int) int {
 	return n1 + n2
 }
 
-func sub(n1 int, n2 int) int {
+func sub(n1, n2 int) int {
 	return n1 - n2
 }
 
-func mult(n1 int, n2 int) int {
+func mult(n1, n2 int) int {
 	return n1 * n2
 }
 
-func div(n1 float64,  n2 float64) float64 {
+func div(n1,  n2 float64) float64 {
 	return n1 / n2
 }
